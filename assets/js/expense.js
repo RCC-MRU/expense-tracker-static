@@ -25,7 +25,10 @@ const addIncome = (ev) => {
     var cell3 = row.insertCell(2);
     cell1.innerText = text;
     cell2.innerText = amount;
-    // cell3.innerHTML="+";
+    cell3.innerHTML=`
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    `;
     amountMoney = amountMoney + parseInt(amount);
     document.getElementById("income").innerHTML = "Rs " + amountMoney;
   }
