@@ -1,20 +1,53 @@
-/* .container{
-    display:flex;
-    justify-content: center;
-} */
 
-
-
-/* .col-sm-3{
-    padding: 50px;
-    margin-right:60px;
+.balance{
+    background-color:#38CC77;
+    height:100%;
+    width:100%;
+    text-align:center;
+    padding: 20px 10px;
 }
 
-.col-lg-4{
-    padding: 50px;
-    color:green;
-    margin-right:120px;
-} */
+.section-1{
+    height:120px;
+    background-color:white;
+    margin-bottom:70px;
+}
 
+.name{
+    background-color:#35BDD0;
+    height: 100%;
+}
 
+.name h3{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.heading{
+    text-align:center;
+    padding:50px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#E21717;
+}
+
+.heading-2{
+    padding-top:20px ;
+    padding-bottom: 30px;
+
+}
+
+.form-group-1{
+    padding-top:35px;
+}
+
+.form-group-2{
+    padding-bottom:30px;
+}
+
+.heading-3{
+    padding-top:90px;
+}
+
+.heading-2{
+    color:#03203C;
+}
