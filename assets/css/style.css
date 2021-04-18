@@ -17,6 +17,12 @@ table{
     padding: 8px;
   }
   
+<<<<<<< HEAD
   tr:nth-child(odd) {
     background-color:aqua;
   }
+=======
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+>>>>>>> master

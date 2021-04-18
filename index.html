@@ -15,6 +15,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/Arsh.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
 
   <!-- Title -->
@@ -22,6 +23,30 @@
 </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+    <div class="col-12 col-md-4">
+      <h3>BALANCE</h3>
+      <div class="Amount1">
+
+      </div>
+      
+    </div>
+
+    <div class="col-12 col-md-4">
+      <h3>Name</h3>
+
+    </div>
+
+    <div class="col-12 col-md-4">
+      <h3>EXPENSE</h3>
+      <div class="Amount2">
+
+      </div>
+    </div>
+
+    </div>
+  </div>
   <table>
     <tr>
       <th>Information</th>
@@ -39,13 +64,31 @@
       <td>Minus</td>
     </tr>
   </table>
+    <h3>Add New Transaction</h3>  
+    <hr>
+    <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Text</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Description of Amount">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Amount</label>
+        <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Enter the Amount">
+      </div>
+      <button type="submit" class="btn btn-primary">All Transactions</button>
+    </form>
+        
+
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
   <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/expense.js"></script>
+
+
+
+
 </body>
 
 </html>
