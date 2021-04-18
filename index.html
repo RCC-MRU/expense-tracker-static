@@ -23,35 +23,48 @@
 </head>
 
 <body>
+  <div class="heading">
+    <h1>EXPENSE TRACKER</h1>
+  </div>
   <div class="container">
-    <div class="row">
-    <div class="col-12 col-md-4">
-      <h3>BALANCE</h3>
-      <div class="Amount1">
-
-      </div>
+    <div class="row section-1" >
       
+
+    <div class="col-12 col-md-4">
+      <div class="balance">
+       <h3>BALANCE</h3>
+        <div class="amount-1">
+          <p>2000</p>
+        </div>
+      </div>
     </div>
 
     <div class="col-12 col-md-4">
-      <h3>Name</h3>
+      <div class="name d-flex justify-content-center align-items-center">
+        <h3>Full name</h3>
+      </div>
 
     </div>
 
     <div class="col-12 col-md-4">
-      <h3>EXPENSE</h3>
-      <div class="Amount2">
-
+      <div class="balance">
+       <h3>EXPENSE</h3>
+        <div class="amount-1">
+          <p>2000</p>
+        </div>
       </div>
     </div>
 
     </div>
   </div>
+
+  <div class="container">
+    <h2 class="heading-2">HISTORY</h2>
   <table>
     <tr>
       <th>Information</th>
       <th>Amount</th>
-      <th>Country</th>
+      <th>Status</th>
     </tr>
     <tr>
       <td>Burger</td>
@@ -64,7 +77,23 @@
       <td>Minus</td>
     </tr>
   </table>
+  </div>
 
+  <form class="container">
+    <h2 class="heading-3">NEW TRANSACTION</h2>
+    <div class="form-group-1">
+      <label for="formGroupExampleInput"style="font-size:18px">Category</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Description of Amount">
+    </div><br>
+    <div class="form-group-2">
+      <label for="formGroupExampleInput2"style="font-size:18px">Amount</label>
+      <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Enter the amount">
+    </div>
+    <button type="submit" class="btn btn-success">Credit</button>
+    <button type="submit" class="btn btn-danger">Debit</button>
+  </form>
+  
+  
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
