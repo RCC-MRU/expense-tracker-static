@@ -1,18 +1,15 @@
-import * as confetti from './confetti.js'
+import * as confetti from "./confetti.js";
 
 const balance = document.getElementById("balance");
 const expense = document.getElementById("expense");
 
-
 // calculating expense rate
 
-function expenseRate(balance,expense)
-{
- let expenRate=(expense/balance)*100;
+function expenseRate(balance, expense) {
+  let expenRate = (expense / balance) * 100;
 
- if(expenRate<=40)
- {
-   /* <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  if (expenRate <= 40) {
+    `<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -24,18 +21,16 @@ function expenseRate(balance,expense)
         <div class="modal-body">
           <p>Your expenditure Rate is ${expenRate}. Congratulations!!</p>
         </div>
-
-//calling confetti.js here
-
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
-  </div> */
- }
- else{
-     /* <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  </div>`;
+
+    //calling confetti.js here
+  } else {
+    `<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -52,7 +47,6 @@ function expenseRate(balance,expense)
         </div>
       </div>
     </div>
-  </div> */
- }
-
+  </div>`;
+  }
 }
