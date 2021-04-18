@@ -1,28 +1,58 @@
 /* CSS file for main styling */
 * {
-    font-family: sans-serif;
-  } 
-table{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    min-width: 400px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  }
-  td, th {
-    border-bottom: 1px solid #000000;
-    text-align: left;
-    padding: 8px;
-  }
-  
-<<<<<<< HEAD
-  tr:nth-child(odd) {
-    background-color:aqua;
-  }
-=======
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
->>>>>>> master
+  font-family: sans-serif;
+}
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+td,
+th {
+  border-bottom: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: aqua;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#btn-strt {
+  color: #ff8303;
+  position: relative;
+  top: 328px;
+  display: block;
+  width: 54%;
+  background: #1b1a17;
+  /* color: black; */
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 44px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: auto;
+  height: 72px;
+  box-shadow: 9px 10px 9px #a35709;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+  background-color: #120e43;
+}
+
+.modal-content {
+  background-color: #cad5e2;
+}
+
+.input-border {
+  border: 3px solid #120e43;
+}
