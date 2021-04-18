@@ -2,6 +2,40 @@
 * {
   font-family: sans-serif;
 }
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.heading h1 {
+  text-align: center;
+  padding: 50px 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #e21717;
+}
+
+.balance {
+  background-color: #38cc77;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.name {
+  height: 100%;
+}
+
+.name h4 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
 table {
   border-collapse: collapse;
   margin: 25px 0;
@@ -11,6 +45,13 @@ table {
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
 td,
 th {
   border-bottom: 1px solid #000000;
@@ -19,9 +60,10 @@ th {
 }
 
 tr:nth-child(odd) {
-  background-color: aqua;
+  background-color: #38cc77;
 }
 tr:nth-child(even) {
+  /* background-color: #38cc77; */
   background-color: #dddddd;
 }
 
@@ -32,7 +74,6 @@ tr:nth-child(even) {
   display: block;
   width: 54%;
   background: #1b1a17;
-  /* color: black; */
   font-weight: bold;
   border: 3px solid black;
   border-radius: 44px;
@@ -45,8 +86,11 @@ tr:nth-child(even) {
   font-family: "Open Sans", sans-serif;
 }
 
-.btn-primary {
+.btn-custom-primary {
   background-color: #120e43;
+  width: 100%;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .modal-content {
@@ -54,5 +98,6 @@ tr:nth-child(even) {
 }
 
 .input-border {
-  border: 3px solid #120e43;
+  border: 2px solid #120e43;
+  border-radius: 5px;
 }
