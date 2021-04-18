@@ -1,16 +1,28 @@
 /* CSS file for main styling */
- table{
-    font-family: arial, sans-serif;
+* {
+    font-family: sans-serif;
+  } 
+table{
     border-collapse: collapse;
-    width: 100%;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   }
-  
   td, th {
-    border: 1px solid #dddddd;
+    border-bottom: 1px solid #000000;
     text-align: left;
     padding: 8px;
   }
   
+<<<<<<< HEAD
+  tr:nth-child(odd) {
+    background-color:aqua;
+  }
+=======
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+>>>>>>> master
