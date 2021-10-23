@@ -103,10 +103,6 @@ const reduceExpense = (ev) => {
 const credit = document.getElementById("credit");
 const debit = document.getElementById("debit");
 
-document.addEventListener("DOMContentLoaded", () => {
-  credit.addEventListener("click", addIncome);
-});
+credit.addEventListener("click", addIncome);
 
-document.addEventListener("DOMContentLoaded", () => {
-  debit.addEventListener("click", reduceExpense);
-});
+debit.addEventListener("click", reduceExpense);
